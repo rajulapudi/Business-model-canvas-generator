@@ -1,0 +1,260 @@
+< !DOCTYPE html > <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="colorlib.com" name="author">
+        <meta content="ie=edge" http-equiv="X-UA-Compatible">
+        <title>Wizard</title>
+
+        <!-- Font Icon -->
+        <link href="fonts/material-icon/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <link
+        href="vendor/nouislider/nouislider.min.css" rel="stylesheet">
+
+        <!-- Main css -->
+
+        <link href="css/style.css" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <div class="main">
+            <div class="container">
+                <form action="/" class="signup-form" id="signup-form" method="POST" name="myform">
+                    <div>
+                        <h3>Company Info</h3>
+                        <fieldset>
+                            <h2>Company / Start-up Details</h2>
+                            <p class="desc">Please enter your Company Information and Contact details</p>
+                            <div class="fieldset-content">
+                                <div class="form-row">
+                                    <label class="form-label">Company Name & Type of Registration</label>
+                                    <div class="form-flex">
+                                        <div class="form-group">
+                                            <input id="first_name" name="fname" type="text"/>
+                                            <span class="text-input">Name</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="last_name" name="lname" type="text"/>
+                                            <span class="text-input">Type of Company (Pvt/LLP/Prop/Individual)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="email">Official Email</label>
+                                    <input id="email" name="email" type="email"/>
+                                    <span class="text-input">Example  :<span>
+                                            pranee@gmail.com</span>
+                                    </span>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Business Phone</label>
+                                    <input id="phone" name="phone" type="text"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Key Partners</h3>
+                        <fieldset>
+                            <h2>Key Partners</h2>
+                            <p class="desc">Please enter your key partnerships deemed successful for your business model</p>
+                            <div class="fieldset-content">
+                                <h4>Key Partner :1</h4>
+                                <div class="form-row">
+                                    <label class="form-label">Name</label>
+                                    <div class="form-flex">
+                                        <div class="form-group">
+                                            <input name="kp1name" type="text"/>
+                                            <span class="text-input">Key Partner Name</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input name="kp1purpose" type="text"/>
+                                            <span class="text-input">Key Partner benifit</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Key Partner :2</h4>
+                                <div class="form-row">
+                                    <label class="form-label">Name</label>
+                                    <div class="form-flex">
+                                        <div class="form-group">
+                                            <input name="kp2name" type="text"/>
+                                            <span class="text-input">Key Partner Name</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input name="kp2purpose" type="text"/>
+                                            <span class="text-input">Key Partner benifit</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Key Activities</h3>
+                        <fieldset>
+                            <h2>Key Activities</h2>
+                            <p class="desc">Point out your core business logics and Activities</p>
+                            <div class="fieldset-content">
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Key-Activity 1</label>
+                                    <input id="KA1" name="KA1" type="text"/>
+                                    <label class="form-label" for="phone">Key-Activity 2</label>
+                                    <input id="KA2" name="KA2" type="text"/>
+                                    <label class="form-label" for="phone">Key-Activity 3</label>
+                                    <input id="KA3" name="KA3" type="text"/>
+                                    <label class="form-label" for="phone">Key-Activity 4</label>
+                                    <input id="KA4" name="KA4" type="text"/>
+                                    <label class="form-label" for="phone">Key-Activity 5</label>
+                                    <input id="KA5" name="KA5" type="text"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Key Resources</h3>
+                        <fieldset>
+                            <h2>Key Resources</h2>
+                            <p class="desc">Please update any key resources like human capital, strategic alliances or other resources</p>
+                            <div class="fieldset-content">
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Key-Resource 1</label>
+                                    <input id="KR1" name="KR1" type="text"/>
+                                    <label class="form-label" for="phone">Key-Resource 2</label>
+                                    <input id="KR2" name="KR2" type="text"/>
+                                    <label class="form-label" for="phone">Key-Resource 3</label>
+                                    <input id="KR3" name="KR3" type="text"/>
+                                    <label class="form-label" for="phone">Key-Resource 4</label>
+                                    <input id="KR4" name="KR4" type="text"/>
+                                    <label class="form-label" for="phone">Key-Resource 5</label>
+                                    <input id="KR5" name="KR5" type="text"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Value Propositions</h3>
+                        <fieldset>
+                            <h2>Value Propositions</h2>
+                            <p class="desc">Please enter your infomation and proceed to next step so we can build your BMC</p>
+                            <div class="fieldset-content">
+                                <div class="form-group">
+                                    <label class="form-label" for="textarea">Describe Your Value Propositions</label>
+                                    <textarea class="form-control" id="vptextarea" name="vptextarea" rows="10"></textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Customer Relationships</h3>
+                        <fieldset>
+                            <h2>Customer Relationships</h2>
+                            <p class="desc">Please enter your Customer Relationship Highlights</p>
+                            <div class="fieldset-content">
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Customer Relationship Highlights</label>
+                                    <input id="CRH1" name="CRH1" type="text"/>
+                                    <label class="form-label" for="phone">Customer Relationship Highlights</label>
+                                    <input id="CRH2" name="CRH2" type="text"/>
+                                    <label class="form-label" for="phone">Customer Relationship Highlights</label>
+                                    <input id="CRH3" name="CRH3" type="text"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Channels</h3>
+                        <fieldset>
+                            <h2>Channels</h2>
+                            <p class="desc">Please enter your infomation about your Channels of Distribution / Business</p>
+                            <div class="fieldset-content">
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Channel Highlights</label>
+                                    <input id="CH1" name="CH1" type="text"/>
+                                    <label class="form-label" for="phone">Channel Highlights</label>
+                                    <input id="CH2" name="CH2" type="text"/>
+                                    <label class="form-label" for="phone">Channel Highlights</label>
+                                    <input id="CH3" name="CH3" type="text"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Customer Segments</h3>
+                        <fieldset>
+                            <h2>Customer Segments</h2>
+                            <p class="desc">Please enter your infomation about Customer Segments</p>
+                            <div class="fieldset-content">
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Customer Segments Highlights</label>
+                                    <input id="CSH1" name="CSH1" type="text"/>
+                                    <label class="form-label" for="phone">Customer Segments Highlights</label>
+                                    <input id="CSH2" name="CSH2" type="text"/>
+                                    <label class="form-label" for="phone">Customer Segments Highlights</label>
+                                    <input id="CSH3" name="CSH3" type="text"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Cost Structures</h3>
+                        <fieldset>
+                            <h2>Cost Structures</h2>
+                            <p class="desc">Please enter your infomation on Cost Structures</p>
+                            <div class="fieldset-content">
+                                <div class="form-group">
+                                    <label class="form-label" for="phone">Cost Structures</label>
+                                    <input id="CS1" name="CS1" type="text"/>
+                                    <label class="form-label" for="phone">Cost Structures</label>
+                                    <input id="CS2" name="CS2" type="text"/>
+                                    <label class="form-label" for="phone">Cost Structures</label>
+                                    <input id="CS3" name="CS3" type="text"/>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Revenue Streams</h3>
+                        <fieldset>
+                            <h2>Revenue Streams</h2>
+                            <p class="desc">Estimated Revenues from different Revenue Streams</p>
+                            <div class="fieldset-content">
+                                <div class="form-row">
+                                    <label class="form-label">Revenue Stream</label>
+                                    <div class="form-flex">
+                                        <div class="form-group">
+                                            <input id="rvnstr_name" name="revStream1" type="text"/>
+                                            <span class="text-input">Revenue Stream</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="revenue percentage" name="revPercentage1" type="number"/>
+                                            <span class="text-input">Revenue Percentage</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-flex">
+                                        <div class="form-group">
+                                            <input id="rvnstr_name" name="revStream2" type="text"/>
+                                            <span class="text-input">Revenue Stream</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="revenue percentage" name="revPercentage2" type="number"/>
+                                            <span class="text-input">Revenue Percentage</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-flex">
+                                        <div class="form-group">
+                                            <input id="rvnstr_name" name="revStream3" type="text"/>
+                                            <span class="text-input">Revenue Stream</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="revenue percentage" name="revPercentage3" type="number"/>
+                                            <span class="text-input">Revenue Percentage</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- JS -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+        <script src="vendor/jquery-steps/jquery.steps.min.js"></script>
+        <script src="vendor/minimalist-picker/dobpicker.js"></script>
+        <script src="vendor/nouislider/nouislider.min.js"></script>
+        <script src="vendor/wnumb/wNumb.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
